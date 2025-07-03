@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Monitoreo de actividad sospechosa</title>
+   </head>
+   <body>
+    <header>
+         <div>
+         
+            <a href="file:///Users/santyburke/Desktop/Curso%20Henry/index.html/home.html" target="_blank">
+                <button>Home</button>
+            </a>
+        
+        
+            <a href="file:///Users/santyburke/Desktop/Curso%20Henry/index.html/generarContrasena.html" target="_blank">
+                <button>Generar Contraseña</button>
+            </a>
+        
+        
+             <a href="file:///Users/santyburke/Desktop/Curso%20Henry/index.html/cajaFuerte.html" target="_blank">
+                <button>Caja Fuerte</button>
+            </a>
+        
+        
+             <a href="file:///Users/santyburke/Desktop/Curso%20Henry/index.html/monitoreoActividad.html" target="_blank">
+                <button>Monitoreo de actividad</button>
+            </a>
+        
+        
+             <a href="file:///Users/santyburke/Desktop/Curso%20Henry/index.html/gestionUsuarios.html" target="_blank">
+                <button>Gestion de usuarios</button>
+            </a>
+        </div>
+        <h1>Asistente de seguridad</h1>
+    </header>
+    <main>
+        <h2>Sistema de monitoreo de actividad sospechosa</h2>
+        <form>
+        <div>
+             <label for="descripcion">Descripcion</label>
+                <select id="descripcion" name="descripcion">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+
+                <label for="nivel">Nivel de riesgo</label>
+                <select id="nivel" name="nivel">
+                    <option value="nulo">Nulo</option>
+                    <option value="medio">Medio</option>
+                    <option value="alto">Alto</option>
+                </select>
+                <button type="submit">AGREGAR ACTIVIDAD</button>
+        </div>
+        <div>
+            <label for="eliminar">Eliminar Actitud Sospechosa</label>
+                <input type="text" name="eliminar"/>
+                <button type="submit">ELIMINAR ACTITUD</button>
+        </div>
+        <div>
+            <label for="filtrar">Filtrar Actividad Por Nivel De Riesgo</label>
+                <input type="text" name="filtrar"/>
+                <button type="submit">MOSTRAR ACTIVIDADES</button>
+        </div>
+        <div>
+            <label for="reporte">Reporte De Actividades</label>
+                <input type="text" name="reporte"/>
+                <button type="submit">GENERAR REPORTE</button>
+        </div>
+        </form>
+
+    </main>
+    <footer>
+        <ul>
+            <li>Id: 0 Descriocion: asdf, Riesgo - medio</li>
+            <li>Id: 1 Descriocion: asdf, Riesgo - medio</li>
+            <li>Id: 2 Descriocion: asdf, Riesgo - medio</li>
+            <li>Id: 3 Descriocion: asdf, Riesgo - alto</li>
+        </ul>
+    </footer>
+      
+   </body>
+</html>
